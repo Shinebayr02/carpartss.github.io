@@ -1,10 +1,14 @@
 {
+  "homepage": "https://Shinebayr02.github.io/carpartss.github.io/",
   "name": "car-part",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
