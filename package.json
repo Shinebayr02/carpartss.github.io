@@ -1,14 +1,23 @@
 {
+<<<<<<< HEAD
   "homepage": "https://Shinebayr02.github.io/carpartss.github.io/",
+=======
+   "homepage": "https://shinebayr02.github.io/carpartss.github.io/",
+>>>>>>> 32d777f871e7dcebc146bd07e5ea833a04b0e6ba
   "name": "car-part",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
     
+=======
+     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+>>>>>>> 32d777f871e7dcebc146bd07e5ea833a04b0e6ba
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -32,7 +41,11 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+<<<<<<< HEAD
     "gh-pages": "^6.1.1",
+=======
+     "gh-pages": "^6.1.1",
+>>>>>>> 32d777f871e7dcebc146bd07e5ea833a04b0e6ba
     "vite": "^5.2.0"
   }
 }
